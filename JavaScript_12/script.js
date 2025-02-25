@@ -68,7 +68,7 @@ let fruits = ["banana", "orange", "apple", "grapes"];
 fruits.sort();                                                       // sorts in alphabetical order
 console.log(fruits);
 let z = [551, 22, 3, 14, 5, 6, 7, 8, 229];              
-z.sort();                                                             // sorts in alphabetical order
+z.sort();                                                            // sorts in alphabetical order
 console.log(z);
 
 // array.sort(compareFunction) : it sorts the array in ascending or decending order and changes occur in original array
@@ -98,12 +98,12 @@ console.log(roy);
 // splice()
 // array_name.splice(starting position to add , no. of elements to be deleted , elements to be added)
 let newarr = [551, 22, 3, 14, 5, 6, 7, 8, 229]
-let del_values = newarr.splice(2, 3, 1021, 1022, 1023, 1024, 1025);        // splice(): returns the deleted elements of array and modifies the array
+let del_values = newarr.splice(2, 3, 1021, 1022, 1023, 1024, 1025);        // splice(): returns the deleted elements of array and modifies the original array
 console.log(newarr);
 console.log(del_values);
 console.log(typeof(del_values));
 
-// slice() : doesnt change th original array
+// slice() : doesnt change the original array
 let myarray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let sliced_array1 = myarray.slice(2);                                   // slice(): returns the sliced new array
 let sliced_array2 = myarray.slice(2, 5);                                // slice(): returns the sliced new array

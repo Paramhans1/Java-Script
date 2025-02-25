@@ -15,7 +15,7 @@ console.log("Average of 'b' and 'c' is ",average(b,c));
 
 
 
-// Arrow function
+// 2. Arrow function
 // example-1 
 const sum = (p,q)=>{
     return p+q;

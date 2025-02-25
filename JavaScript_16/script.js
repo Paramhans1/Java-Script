@@ -1,6 +1,6 @@
 // Exercise 1 - Guess The number
 let x = Math.floor(Math.random()*100) +1;
-console.log(x);
+// console.log(x);
 let chance = 0;
 const prompt = require("prompt-sync")({sigint:true});
 for(let i = 0; i<100 ; i++){

@@ -1,5 +1,6 @@
 // Loops with Arrays
 let num = [3, 5, 7, 4, 9]
+console.log(num);
 for(let i = 0; i<num.length; i++){
     console.log(num[i]);
 }
@@ -25,7 +26,7 @@ Array.from(html_collection)
 forEach loop doesnt work upon 'html collections'. So first we need to convert 'html_collection' or any other 'object' into an 'array'
 */
 let myname = "Harry"
-let arr = Array.from(myname)                             // Convert String into Array
+let arr = Array.from(myname)                            // Convert String into Array
 console.log(arr);
 
 

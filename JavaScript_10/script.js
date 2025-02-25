@@ -1,5 +1,5 @@
 // Strings
-let naam = "Param";                   // Allowed
+let naam = "Param";                     // Allowed
 let dost = 'Ram';                       // Allowed
 console.log(naam);
 console.log(naam[0]);
@@ -16,9 +16,9 @@ console.log(mydost);
 
 
 // Template litrals
-let boy1 = "Ankit";
+let boy1 = "Ankit";                                               // Ankit & Rahul are literals more precisely "string literals" 
 let boy2 = "Rahul";
-console.log(`${boy1} is friend of ${boy2}`);                      // String Polation : inserting variable directly inside String using template literals
+console.log(`${boy1} is friend of ${boy2}`);                      // String interPolation : inserting variable directly inside String using template literals
 console.log(`My name is "Param"`)
 console.log(`My teacher name is 'Aryan'`)
 //we can write "" or '' withing backtick``
@@ -29,7 +29,7 @@ console.log(`My teacher name is 'Aryan'`)
 
 //Escape Sequence Character
 // example:    \' and  \"   and  \n  and  \t   and  \r  
-// here both \' are considered as one character
+// here both \' are considered as one character, there fore string length only exceed by one not by two
 let fruit1 = "Banana\'s";
 let fruit2 = 'Mango\"es';
 let fruit3 = "Payaya\"s";
@@ -91,7 +91,7 @@ console.log(frnd2.trim());
 
 
 
-// Strings are immutable : operations can be performend on strings but it cant be changed
+// Strings are immutable : operations can be performend on strings but original string wont change
 //example
 console.log(myname);
 console.log(frnd);

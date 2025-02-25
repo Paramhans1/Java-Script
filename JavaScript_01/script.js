@@ -1,7 +1,7 @@
 console.log("difference betweeen 'let' , 'var' ,'const'");
 /*
 'var' is globally scoped 
-var: can be updated and redeclared within the scope
+var: can be updated and redeclared
 
 'let' , 'const' both are block scoped
 let: can be updated but can not be redeclared 

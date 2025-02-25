@@ -7,10 +7,10 @@ const prompt = require ("prompt-sync")({sigint: true})
 /*
 alert is not part of JavaScript,
 it's part of the window object provided by web browsers.
-So it doesn't exist in the context you're trying to use it in.
+So it doesn't exist in the context you're trying to use it in vscode.
 */
-const prompt = require("prompt-sync")({sigint:true});
-let a = prompt("Hey whats your age?");                                     // we use prompt for taking input .It takes input always in string type
+const prompt = require("prompt-sync")({sigint:true});                      // we are using it only to run in compiler terminal. its not needed when u want to run in browser console
+let a = prompt("Hey whats your age?");                                     // we use prompt for taking input .It takes input always as a string type
 console.log(typeof a);
 a = Number.parseInt(a)
 console.log(typeof a);
@@ -47,7 +47,7 @@ switch(b){
         console.log("I love Oranges");
         break;
     case "red" :
-        console.log("I love Apples")
+        console.log("I love Apples");
         break;
     default :
     console.log("I love all fruits");

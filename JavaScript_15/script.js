@@ -3,7 +3,7 @@ let arr = [1, 2, 3, 8, 9];
 const prompt = require("prompt-sync")({sigint:true});
 let a = prompt("Enter a number: ");
 a = Number.parseInt(a);
-arr.push(a)
+arr.push(a);
 console.log(arr);
 
 

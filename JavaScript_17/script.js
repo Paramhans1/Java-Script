@@ -1,13 +1,13 @@
-// console methods as name suggest used in console of web browser
+// console methods: as name suggest used in console of web browser console
 // List of different console methods
-// displayed in "info" filter
+// displayed in "info" filter of browser console
 console.log(console);                           
 
 
 
 // asserts(): assertion fail when false data is defined
 // if data is true it shows no error 
-// displayed in "error" filter if assertion fails 
+// displays in "error" filter if assertion fails 
 console.assert(5>555);
 console.assert(60>55);
 

@@ -26,9 +26,9 @@ let c = 10;
 let d = 20;
 console.log("c + = 5 now the value of c = ", c += 5);                   // C = c + 5
 console.log("c - = 5 now the value of c = ", c -= 5);                   // C = c - 5
-console.log("d * = 5 now the value of c = ", c *= 5);                   // C = d * 5
-console.log("d / = 5 now the value of c = ", c /= 5);                   // C = d / 5
-console.log("d ** = 5 now the value of c = ", c **= 5);                  // C = d ** 5
+console.log("d * = 5 now the value of c = ", c *= 5);                   // C = c * 5
+console.log("d / = 5 now the value of c = ", c /= 5);                   // C = c / 5
+console.log("d ** = 5 now the value of c = ", c **= 5);                 // C = c ** 5
 
 
 
@@ -67,7 +67,7 @@ let y = 6;
 console.log(x<y && x==5);                      // 'true' and 'true' = 'true'
 console.log(x>y || x==5);                      // 'false' or 'true' = 'true'
 console.log(!false);                           // '!false' = 'true'
-console.log(!true);                           // '!true' = 'false'
+console.log(!true);                            // '!true' = 'false'
 
 
 
@@ -75,3 +75,12 @@ console.log(!true);                           // '!true' = 'false'
 
 
 // Bitwise Operators -------------------------------- Operators on bits (binary digits)
+console.log("Bitwise Operator");
+let g = 2;                                       // 2 in bit form is "10"
+let h = 3;                                       // 3 in bit form is "11"
+console.log(g & h);                              // Bitwise AND
+console.log(g | h);                              // Bitwise OR
+console.log(g ^ h);                              // Bitwise XOR
+console.log(~g);                                 // Bitwise NOT
+console.log(g << 1);                             // Left Shift
+console.log(g >> 1);                             // Right Shift

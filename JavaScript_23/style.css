@@ -1,0 +1,20 @@
+html, body {
+    height: 100;
+    width: 100;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    /* displays the unordered list element side by side  */
+    display: flex;
+    background: grey;
+    margin: 0;
+    padding: 15px 0;
+    color: white;
+}
+ul li{
+    /* remove the dot infront of "ul elements" */
+    list-style: none;
+    /* gap between UL elements */
+    margin:0 23px;
+}
